@@ -1,138 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 
-    
-    <script src="slideimg.js" ></script>
 
-    <title>Ở đây bán sách không bán </title>
+  
+  <script src="slideimg.js"></script>
+
+  <title>Ở đây bán sách không bán </title>
 </head>
+
 <body>
-    <div id="topbar">
-        <div id="top">
-            <div id="top0"></div>
-            <div id="top1">
-                <h1>Bé Nhím</h1>
-                <input type="text" id="search">
-                <button id="btnsearch"><span class="material-symbols-outlined">
-                    search
-                    </span>
-                </button>
+  <div id="topbar">
+    <div id="top">
+      <div id="top0"></div>
+      <div id="top1">
+        <h1>Bé Nhím</h1>
+        <input type="text" id="search">
+        <button id="btnsearch"><span class="material-symbols-outlined">
+            search
+          </span>
+        </button>
 
-            </div>
-            <div id="top2">
-                <p><span class="material-symbols-outlined">
-                    shopping_cart
-                </span><br>Giỏ Hàng</p>
-                <p><span class="material-symbols-outlined">
-                        person
-                </span><br>Đăng Nhập</p>
-            </div>
-
-        </div>
-
-        <div class="bot">
-          <div class="box">
-
-          </div>
-          <div class="box">
-            <p>Sách Trong Nước </p>
-          </div>
-
-          <div class="box">
-            <p>Foreign Books</p>
-          </div>
-
-          <div class="box">
-            <p>Dụng Cụ Học Tập</p>
-            
-          </div>
-          <div class="box">
-            <p>Sách Giáo Khoa</p>
-            
-          </div>
-          <div class="box">
-            <p>Đồ Chơi</p>
-            
-          </div>
-          <div class="box">
-            
-          </div>
-
-        </div>
+      </div>
+      <div id="top2">
+        <p><span class="material-symbols-outlined">
+            shopping_cart
+          </span><br>Giỏ Hàng</p>
+        <p><span class="material-symbols-outlined">
+            person
+          </span><br>Đăng Nhập</p>
+      </div>
 
     </div>
 
-    <div class="slideshow-container">
+    <div class="bot">
+      <div class="box">
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img class="imga" src="https://cdn0.fahasa.com/media/magentothem/banner7/Backtoschool_0724_LDP_840x320.png" style="width:70%">
-          <div class="text"></div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img class="imga" src="https://cdn0.fahasa.com/media/magentothem/banner7/TrangDoChoiThang7_Resize_SlideBanner_T7_840x320_2.jpg" style="width:70%">
-          <div class="text"></div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img class="imga" src="https://cdn0.fahasa.com/media/magentothem/banner7/NCC_0724_FirstNews_Slide_840x320.jpg" style="width:70%">
-          <div class="text"></div>
-        </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <br>
-      
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+      <div class="box">
+        <p>Sách Trong Nước </p>
       </div>
-      
-      <div class="flashbox">
-        <div class="cardbox">
-          <div id="topbox"> 
-            <div><p id="titlebox">Flash sale</p></div>
-            <div id="box2"><p id="subtext1" style="height: 35%;">Kết thúc trong</p></div>
-            <div id="time">
-              <div class="rec" style="height: 50px;">
-                <p style="height: 40px;">00</p>
+
+      <div class="box">
+        <p>Foreign Books</p>
+      </div>
+
+      <div class="box">
+        <p>Dụng Cụ Học Tập</p>
+
+      </div>
+      <div class="box">
+        <p>Sách Giáo Khoa</p>
+
+      </div>
+      <div class="box">
+        <p>Đồ Chơi</p>
+
+      </div>
+      <div class="box">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img class="imga" src="https://cdn0.fahasa.com/media/magentothem/banner7/Backtoschool_0724_LDP_840x320.png"
+        style="width:70%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="imga"
+        src="https://cdn0.fahasa.com/media/magentothem/banner7/TrangDoChoiThang7_Resize_SlideBanner_T7_840x320_2.jpg"
+        style="width:70%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img class="imga" src="https://cdn0.fahasa.com/media/magentothem/banner7/NCC_0724_FirstNews_Slide_840x320.jpg"
+        style="width:70%">
+      <div class="text"></div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <div class="flashbox">
+    <div class="cardbox">
+      <div id="topbox">
+        <div>
+          <p id="titlebox">Flash sale</p>
+        </div>
+        <div id="box2">
+          <p id="subtext1" style="height: 35%;">Kết thúc trong</p>
+        </div>
+        <div id="time">
+          <div class="rec" style="height: 50px;">
+            <p style="height: 40px;">00</p>
+          </div>
+          <div class="rec">
+            <p style="height: 40px;">30</p>
+          </div>
+          <div class="rec">
+            <p style="height: 40px;">00
+            </p>
+          </div>
+        </div>
+        <div></div>
+        <div></div>
+
+        <div></div>
+        <div class="xem">
+          <p style="height: 30px;text-decoration: underline;">Xem tất cả</p>
+        </div>
+
+      </div>
+
+      <div id="bottombox">
+        <div id="chinh">
+          <div class="card">
+            <div class="imgcon">
+              <img class="img" src="https://cdn0.fahasa.com/media/catalog/product/c/c/cccc_8.jpg">
+            </div>
+            <div class="titlechap">
+              <div class="dk">
+                <p>Biên Niên Sử Đế Chế Alexis - Kiêu Hùng Rung Chuyển - Tập 5</p>
               </div>
-              <div class="rec">
-                <p style="height: 40px;">30</p>
-              </div>
-              <div class="rec">
-                <p style="height: 40px;">00
+            </div>
+
+            <div class="price">
+              <div class="boxprice">
+                <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span> 100.000đ
                 </p>
               </div>
             </div>
-            <div></div>
-            <div></div>
-            
-            <div></div>
-            <div id="xem"><p style="height: 30px;text-decoration: underline;">Xem thêm</p></div>
-
+            <div class="btnbuy"><button class="btn">Mua Ngay</button></div>
+            <div class="slton">
+              <div class="botlayer">
+                <div class="toplayer" style="width: 80%;"></div>
+              </div>
+              <p>Đã bán: 8</p>
+            </div>
           </div>
 
-          <div id="bottombox">
+
+          <div class="card">
+            <div class="imgcon">
+              <img class="img"
+                src="https://cdn0.fahasa.com/media/catalog/product/n/a/nang-juliet-o-truong-noi-tru_bia_standee_tap-1.jpg">
+            </div>
+            <div class="titlechap">
+              <div class="dk">
+                <p>Nàng Juliet Ở Trường Nội Trú - Tập 1 - Tặng Kèm Standee Ivory</p>
+              </div>
+            </div>
+
+            <div class="price">
+              <div class="boxprice">
+                <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span> 100.000đ
+                </p>
+              </div>
+            </div>
+            <div class="btnbuy"><button class="btn">Mua Ngay</button></div>
+            <div class="slton">
+              <div class="botlayer">
+                <div class="toplayer" style="width: 70%;"></div>
+              </div>
+              <p>Đã bán: 7</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgcon">
+              <img class="img"
+                src="https://cdn0.fahasa.com/media/catalog/product/t/h/tham-tu-lung-danh-conan_ho-so-tuyet-mat_shinichi-kudo-ran-mori_bia_obi.jpg">
+            </div>
+            <div class="titlechap">
+              <div class="dk">
+                <p>Thám Tử Lừng Danh Conan - Hồ Sơ Tuyệt Mật - Shinichi Kudo & Ran Mori - Tặng Kèm Obi</p>
+              </div>
+            </div>
+            <div class="price">
+              <div class="boxprice">
+                <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span> 100.000đ
+                </p>
+              </div>
+            </div>
+            <div class="btnbuy"><button class="btn">Mua Ngay</button></div>
+            <div class="slton">
+              <div class="botlayer">
+                <div class="toplayer"></div>
+              </div>
+              <p>Đã bán: 2</p>
+            </div>
+
+          </div>
+          <div class="card">
+            <div class="imgcon">
+              <img class="img"
+                src="https://cdn0.fahasa.com/media/catalog/product/t/h/th_ng-tin-ph_t-h_nh-s_ch---_manga_-di_t-slime...-6b_a600.jpg">
+            </div>
+            <div class="titlechap">
+              <div class="dk">
+                <p>[Manga] Diệt Slime Suốt 300 Năm, Tôi Levelmax Lúc Nào Chẳng Hay - Tập 6 (Tái Bản)</p>
+              </div>
+            </div>
+            <div class="price">
+              <div class="boxprice">
+                <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span> 100.000đ
+                </p>
+              </div>
+            </div>
+            <div class="btnbuy">
+              <button class="btn">Mua Ngay</button>
+            </div>
+
+            <div class="slton">
+              <div class="botlayer">
+                <div class="toplayer" style="width: 90%;"> </div>
+              </div>
+              <p>Đã bán: 9</p>
+            </div>
+
+          </div>
+        </div>
+        <div id="them"></div>
+
+
+      </div>
+
+    </div>
+  </div>
+  <div id="bestseller">
+    <div id="topbestseller">
+      <div class="cuc1"></div>
+      <div class="blockb">
+        <div style="width: 40%; height: 100%;"></div>
+        <div style="width: 60%; height: 100%;">
+          <p style="font-size: 32px;font-weight: 400;">Sản Phẩm Ưa Thích</p>
+        </div>
+      </div>
+      <div class="blockb"></div>
+      <div class="blockb"></div>
+      <div class="blockb"></div>
+      <div class="blockb"></div>
+      <div class="blockb"></div>
+      <div class="blockb">
+        <div>
+          <p style="height: 30px;text-decoration: underline;">Xem tất cả</p>
+        </div>
+      </div>
+    </div>
+    <div id="botbestseller">
+
+      <div class="cucbao">
+        <div class="cuc1"></div>
+        <div id="hang1" style="width: 100%; height: 100%;">
+          <div id="chinh">
             <div class="card">
               <div class="imgcon">
                 <img class="img" src="https://cdn0.fahasa.com/media/catalog/product/c/c/cccc_8.jpg">
@@ -142,55 +301,77 @@
                   <p>Biên Niên Sử Đế Chế Alexis - Kiêu Hùng Rung Chuyển - Tập 5</p>
                 </div>
               </div>
-              
+
               <div class="price">
                 <div class="boxprice">
-                  <p>100.000đ</p>
+                  <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span>
+                    100.000đ</p>
                 </div>
               </div>
-              <div class="btnbuy"></div>
-              <div class="slton"></div>
+              <div class="btnbuy"><button class="btn">Mua Ngay</button></div>
+              <div class="slton">
+                <div class="botlayer">
+                  <div class="toplayer" style="width: 80%;"></div>
+                </div>
+                <p>Đã bán: 8</p>
+              </div>
             </div>
 
 
             <div class="card">
               <div class="imgcon">
-                <img class="img" src="https://cdn0.fahasa.com/media/catalog/product/n/a/nang-juliet-o-truong-noi-tru_bia_standee_tap-1.jpg">
+                <img class="img"
+                  src="https://cdn0.fahasa.com/media/catalog/product/n/a/nang-juliet-o-truong-noi-tru_bia_standee_tap-1.jpg">
               </div>
               <div class="titlechap">
                 <div class="dk">
                   <p>Nàng Juliet Ở Trường Nội Trú - Tập 1 - Tặng Kèm Standee Ivory</p>
                 </div>
               </div>
-              
+
               <div class="price">
                 <div class="boxprice">
-                  <p>100.000đ</p>
+                  <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span>
+                    100.000đ</p>
                 </div>
               </div>
-              <div class="btnbuy"></div>
-              <div class="slton"></div>
+              <div class="btnbuy"><button class="btn">Mua Ngay</button></div>
+              <div class="slton">
+                <div class="botlayer">
+                  <div class="toplayer" style="width: 70%;"></div>
+                </div>
+                <p>Đã bán: 7</p>
+              </div>
             </div>
             <div class="card">
               <div class="imgcon">
-                <img class="img" src="https://cdn0.fahasa.com/media/catalog/product/b/i/bi_u-t_ng-kpop---copy_1.jpg">
+                <img class="img"
+                  src="https://cdn0.fahasa.com/media/catalog/product/t/h/tham-tu-lung-danh-conan_ho-so-tuyet-mat_shinichi-kudo-ran-mori_bia_obi.jpg">
               </div>
               <div class="titlechap">
                 <div class="dk">
-                  <p>BTS Biểu Tượng K-pop</p>
+                  <p>Thám Tử Lừng Danh Conan - Hồ Sơ Tuyệt Mật - Shinichi Kudo & Ran Mori - Tặng Kèm Obi</p>
                 </div>
               </div>
               <div class="price">
                 <div class="boxprice">
-                  <p>100.000đ</p>
+                  <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span>
+                    100.000đ</p>
                 </div>
               </div>
-              <div class="btnbuy"></div>
-              <div class="slton"></div>
+              <div class="btnbuy"><button class="btn">Mua Ngay</button></div>
+              <div class="slton">
+                <div class="botlayer">
+                  <div class="toplayer"></div>
+                </div>
+                <p>Đã bán: 2</p>
+              </div>
+
             </div>
             <div class="card">
               <div class="imgcon">
-                <img class="img" src="https://cdn0.fahasa.com/media/catalog/product/t/h/th_ng-tin-ph_t-h_nh-s_ch---_manga_-di_t-slime...-6b_a600.jpg">
+                <img class="img"
+                  src="https://cdn0.fahasa.com/media/catalog/product/t/h/th_ng-tin-ph_t-h_nh-s_ch---_manga_-di_t-slime...-6b_a600.jpg">
               </div>
               <div class="titlechap">
                 <div class="dk">
@@ -199,18 +380,235 @@
               </div>
               <div class="price">
                 <div class="boxprice">
-                  <p>100.000đ</p>
+                  <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span>
+                    100.000đ</p>
                 </div>
               </div>
-              <div class="btnbuy"></div>
-              <div class="slton"></div>
+              <div class="btnbuy">
+                <button class="btn">Mua Ngay</button>
+              </div>
+
+              <div class="slton">
+                <div class="botlayer">
+                  <div class="toplayer" style="width: 90%;"> </div>
+                </div>
+                <p>Đã bán: 9</p>
+              </div>
+
             </div>
           </div>
-
         </div>
       </div>
-    
-      
-    
+      <div class="cucbao">
+        <div class="cuc1"></div>
+        <div id="hang1" style="width: 100%; height: 100%;">
+          <div id="chinh">
+            <div class="card">
+              <div class="imgcon">
+                <img class="img" src="https://cdn0.fahasa.com/media/catalog/product/c/c/cccc_8.jpg">
+              </div>
+              <div class="titlechap">
+                <div class="dk">
+                  <p>Biên Niên Sử Đế Chế Alexis - Kiêu Hùng Rung Chuyển - Tập 5</p>
+                </div>
+              </div>
+
+              <div class="price">
+                <div class="boxprice">
+                  <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span>
+                    100.000đ</p>
+                </div>
+              </div>
+              <div class="btnbuy"><button class="btn">Mua Ngay</button></div>
+              <div class="slton">
+                <div class="botlayer">
+                  <div class="toplayer" style="width: 80%;"></div>
+                </div>
+                <p>Đã bán: 8</p>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <div class="imgcon">
+                <img class="img"
+                  src="https://cdn0.fahasa.com/media/catalog/product/n/a/nang-juliet-o-truong-noi-tru_bia_standee_tap-1.jpg">
+              </div>
+              <div class="titlechap">
+                <div class="dk">
+                  <p>Nàng Juliet Ở Trường Nội Trú - Tập 1 - Tặng Kèm Standee Ivory</p>
+                </div>
+              </div>
+
+              <div class="price">
+                <div class="boxprice">
+                  <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span>
+                    100.000đ</p>
+                </div>
+              </div>
+              <div class="btnbuy"><button class="btn">Mua Ngay</button></div>
+              <div class="slton">
+                <div class="botlayer">
+                  <div class="toplayer" style="width: 70%;"></div>
+                </div>
+                <p>Đã bán: 7</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgcon">
+                <img class="img"
+                  src="https://cdn0.fahasa.com/media/catalog/product/t/h/tham-tu-lung-danh-conan_ho-so-tuyet-mat_shinichi-kudo-ran-mori_bia_obi.jpg">
+              </div>
+              <div class="titlechap">
+                <div class="dk">
+                  <p>Thám Tử Lừng Danh Conan - Hồ Sơ Tuyệt Mật - Shinichi Kudo & Ran Mori - Tặng Kèm Obi</p>
+                </div>
+              </div>
+              <div class="price">
+                <div class="boxprice">
+                  <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span>
+                    100.000đ</p>
+                </div>
+              </div>
+              <div class="btnbuy"><button class="btn">Mua Ngay</button></div>
+              <div class="slton">
+                <div class="botlayer">
+                  <div class="toplayer"></div>
+                </div>
+                <p>Đã bán: 2</p>
+              </div>
+
+            </div>
+            <div class="card">
+              <div class="imgcon">
+                <img class="img"
+                  src="https://cdn0.fahasa.com/media/catalog/product/t/h/th_ng-tin-ph_t-h_nh-s_ch---_manga_-di_t-slime...-6b_a600.jpg">
+              </div>
+              <div class="titlechap">
+                <div class="dk">
+                  <p>[Manga] Diệt Slime Suốt 300 Năm, Tôi Levelmax Lúc Nào Chẳng Hay - Tập 6 (Tái Bản)</p>
+                </div>
+              </div>
+              <div class="price">
+                <div class="boxprice">
+                  <p><span style="font-size: 16px;color: darkgrey;text-decoration: line-through ;">110.000</span>
+                    100.000đ</p>
+                </div>
+              </div>
+              <div class="btnbuy">
+                <button class="btn">Mua Ngay</button>
+              </div>
+
+              <div class="slton">
+                <div class="botlayer">
+                  <div class="toplayer" style="width: 90%;"> </div>
+                </div>
+                <p>Đã bán: 9</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="baobtn">
+      <div id="bocbtn">
+        <button>Xem Thêm</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <div id="phantren">
+      <div class="trenrec" style="border-right: 1px darkgray solid; ">
+        <div class="conrec">
+          <p id="ten">
+            Bé Nhím
+          </p>
+          <p class="foottext1">
+            Lầu 5, 387-389 Hai Bà Trưng Quận 3 TP HCM
+Công Ty Cổ Phần Phát Hành Sách TP HCM - Lai Lai
+60 - 62 Lê Lợi, Quận 1, TP. HCM, Việt Nam
+Fahasa.com nhận đặt hàng trực tuyến và giao hàng tận nơi. KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng cũng như tất cả Hệ Thống Lai Lai trên toàn quốc.
+          </p>
+        </div>
+      </div>
+      <div class="trenrec">
+        <div class="conrec">
+          <p class="foottile">
+            DỊCH VỤ
+          </p>
+          <p class="foottext">
+            Điều khoản sử dụng<br>
+Chính sách bảo mật thông tin cá nhân<br>
+Chính sách bảo mật thanh toán<br>
+Giới thiệu Fahasa<br>
+Hệ thống trung tâm - nhà sách
+          </p>
+        </div>
+      </div>
+      <div class="trenrec">
+        <div class="conrec">
+          <p class="foottile">
+            HỖ TRỢ
+          </p>
+          <p class="foottext">
+            Chính sách đổi - trả - hoàn tiền<br>
+Chính sách bảo hành - bồi hoàn<br>
+Chính sách vận chuyển<br>
+Chính sách khách sỉ<br>
+Phương thức thanh toán và xuất HĐ
+          </p>
+        </div>
+      </div>
+      <div class="trenrec">
+        <div class="conrec">
+          <p class="foottile">
+            TÀI KHOẢN 
+          </p>
+          <p class="foottext">
+            Đăng nhập/Tạo mới tài khoản<br>
+Thay đổi địa chỉ khách hàng<br>
+Chi tiết tài khoản<br>
+Lịch sử mua hàng
+          </p>
+        </div>
+      </div>
+      <div class="trenrec">
+        <div class="conrec">
+          <p class="foottile">
+            LIÊN HỆ
+          </p>
+          <p class="foottext">
+            <span class="material-symbols-outlined">
+              location_on
+              </span> 60-62 Lê Lợi, Q.1, TP. HCM <br>
+              <span class="material-symbols-outlined">
+                mail
+                </span> cskh@fahasa.com.vn <br>
+                <span class="material-symbols-outlined">
+                  call
+                  </span> 1900636467
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="phanduoi">
+      <div id="canhle">
+        <i class="fab fa-facebook"style="font-size:48px; color: var(--ic);margin:20px 15px"></i>
+        <i class="fab fa-instagram" style="font-size:48px; color: var(--ic);margin:20px 15px"></i>
+        <i class="fab fa-tiktok fa-2x" style="font-size:48px; color: var(--ic);margin:20px 15px;"></i>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
 </body>
+
 </html>
